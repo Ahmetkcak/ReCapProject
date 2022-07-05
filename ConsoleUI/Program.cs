@@ -37,7 +37,7 @@ namespace ConsoleUI
             {
                 Console.WriteLine(color.ColorName + " - " + color.ColorId);
             }
-            //colorManager.Delete(new Color() { ColorId = 10, ColorName = "Pembe" });
+            //colorManager.Delete(new Color() { ColorId = 1, ColorName = "Beyaz" });
             foreach (var color in colorManager.GetAll())
             {
                 Console.WriteLine(color.ColorName + " - " + color.ColorId);
