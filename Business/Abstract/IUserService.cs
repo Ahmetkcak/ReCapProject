@@ -8,16 +8,14 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    public interface IColorService
+    public interface IUserService
     {
-        IDataResult<List<Color>> GetAll();
+        IDataResult<List<User>> GetAll();
 
-        IDataResult<Color> GetById(int id);
+        IResult Add(User user);
 
-        IResult Add(Color color);
+        IResult Update(User user);
 
-        IResult Update(Color color);
-
-        IResult Delete(Color color);
+        IResult Delete(User user);
     }
 }
