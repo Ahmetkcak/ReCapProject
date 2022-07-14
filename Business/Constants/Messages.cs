@@ -37,9 +37,11 @@ namespace Business.Constants
         public static string UserListed = "Kullanıcılar listelendi";
         public static string UserUpdated = "Kullanıcı güncellendi";
 
-        internal static string RentalAdded = "Kiralama başarısız";
-        internal static string RentalDeleted = "Kiralama silindi";
-        internal static string RentalListed = "Kiralamalar listelendi";
-        internal static string RentalUpdated = "Kiralama güncellendi";
+        public static string RentalAdded = "Kiralama başarısız";
+        public static string RentalDeleted = "Kiralama silindi";
+        public static string RentalListed = "Kiralamalar listelendi";
+        public static string RentalUpdated = "Kiralama güncellendi";
+
+        public static string ItemAdded = "Resim eklendi";
     }
 }

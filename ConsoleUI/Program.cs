@@ -49,12 +49,12 @@ namespace ConsoleUI
             ColorManager colorManager = new ColorManager(new EfColorDal());
 
 
-            foreach (var color in colorManager.GetAll())
+            foreach (var color in colorManager.GetAll().Data)
             {
                 Console.WriteLine(color.ColorName + " - " + color.ColorId);
             }
             //colorManager.Delete(new Color() { ColorId = 1, ColorName = "Beyaz" });
-            foreach (var color in colorManager.GetAll())
+            foreach (var color in colorManager.GetAll().Data)
             {
                 Console.WriteLine(color.ColorName + " - " + color.ColorId);
             }
